@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div#video {
+	
+	width: 900px;
+	height: 580px;
+	margin: auto;
+	background: url("../_imagens/fundo-video2-min.jpg") ;
+	background-position: 50%;
+	background-size: 900px 900px;
+	display: block;
+	
+}
+
+iframe#filme {
+	
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	border: solid;
+	margin-left: -30px;
+	margin-top: 20px;
+}

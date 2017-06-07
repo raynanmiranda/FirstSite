@@ -1,0 +1,79 @@
+<!DOCYTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>tudo sobre The New GYM</title>
+	<link rel="stylesheet"  href="_css/estilo.css"/>
+	<link rel="stylesheet"  href="_css/form.css"/>
+	
+</head>
+<body>
+<div id="interface">
+
+	<header id="cabecalho">
+		<hgroup>
+			<h1>The New GYM</h1>
+			<h2>Everything Made at Home</h2>
+		</hgroup>
+		
+		
+		
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="alonga.html">Alongamentos</a></li>
+		<li><a href="exercicio.html">Exercícios</a></li>
+		<li><a href="videos.php">Videos</a></li>
+		<li><a href="contato.html">Contato</a></li>
+	</ul>	
+	
+	</nav>
+	</header>
+	<div id="centro">
+	<form method="post" id="fContato" action="" >
+	<fieldset id="usuario"><legend>
+		Identificação do Usuário</legend>
+		<p>Nome: <input type="text" name="tNome" id="cNome" size="30" maxlength="35" placeholder="Nome Completo" /></p>
+		<p>Senha: <input type="password" name="tSenha" id="cSenha" size="10" maxlength="8" placeholder="Senha" /></p>
+		<p>E-mail: <input type="email" name="tMail" id="cMail" size="30" maxlength="40" placeholder="E-mail" /></p>
+		<fieldset id="sexo"><legend>Sexo:</legend>
+			<input type="radio" name="tSexo" id="cMasc"  /> <label for="cMasc">Masculino</label><br/>
+			<input type="radio" name="tSexo" id="cFem"  /> <label for="cFem">Feminino</label>
+			</fieldset>
+		<p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc" /></p>
+		</fieldset>
+
+		<fieldset id="endereco"><legend>
+		Endereço do Usuário</legend>
+		<p><label for="cRua">Logradouro: </label><input type="text" name="tRua" id="cRua" size="30" maxlength="80" placeholder="Endereço Completo" /></p>
+		<p><label for="cNum"> Número: </label><input type="Number" name="tNum" id="cNum" min="0" max="9999" placeholder="Número" /></p>
+		<p><label for="cEst"> Estado: </label><select name="tEst" id="cEst">
+												<option value"RJ">Rio de Janeiro</option>
+												<option value"SP">São Paulo</option>
+												<option value"MG">Minas Gerais</option>
+												<option value"PR">Parana</option>
+												<option value"RS">Rio Grande do Sul</option>
+										</select> </p>
+		<p><label for="cCid"> Cidade: </label>
+		<input type="text" name="tCid" id="cCid" size="30" maxlength="40" placeholder="Cidade" /></p>
+			
+		</fieldset>
+		
+
+		
+		<center>
+		<input type="button" id="btn1" name="tEnviar" value="Enviar" />
+		</center>
+	</form>	
+	</div>
+	
+	<footer id="rodape">
+<p>Copyright &copy; 2017 - by Raynan Miranda <br/>
+<a href="http://facebook.com/" target="_blank">Facebook</a> | 
+<a href="http://twitter.com" target="_blank">Twitter</a></p><br/>
+</footer>
+	
+</div>
+</body>
+</html>

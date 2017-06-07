@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+header#exercicio h1 {
+	text-align: center;
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+}
+
+header#exercicio p{
+	
+	font-family: 'Titillium Web', sans-serif;
+	margin: 10px 10px 0px 10px;
+	margin-right: 30px;
+	
+}
+
+header#exercicio h3 {
+	
+	margin-left: 20px;
+}
